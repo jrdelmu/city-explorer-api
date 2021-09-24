@@ -3,9 +3,9 @@
 require('dotenv').config();
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 // Use a require statement to read the weather data from the weather.json file
-const weatherData = require('./data/weather.json');
+// const weatherData = require('./data/weather.json');
 const cors = require('cors');
 const WEATHER_APIKEY = process.env.WEATHER_APIKEY;
 const axios = require('axios')
